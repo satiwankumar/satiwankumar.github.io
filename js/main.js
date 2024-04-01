@@ -264,6 +264,17 @@ AOS.init({
     fixedContentPos: false,
   });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    var menuItems = document.querySelectorAll(".navbar-nav .nav-link");
+    var menuToggle = document.getElementById("menu-toggle");
+
+    menuItems.forEach(function (menuItem) {
+      menuItem.addEventListener("click", function () {
+        menuToggle.click(); // Simulate click on menu toggle button
+      });
+    });
+  });
+
   document.getElementById("downloadBtn").addEventListener("click", function () {
     // Create an anchor element
     var downloadAnchor = document.createElement("a");
