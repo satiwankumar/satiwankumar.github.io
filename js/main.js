@@ -268,9 +268,9 @@ AOS.init({
     // Create an anchor element
     var downloadAnchor = document.createElement("a");
     // Set the href attribute to the location of your file
-    downloadAnchor.href = "path/to/your-cv-file.pdf"; // Replace 'path/to/your-cv-file.pdf' with the actual path to your CV file
+    downloadAnchor.href = "assets/Satiwan-kumar-resume.pdf"; // Replace 'path/to/your-cv-file.pdf' with the actual path to your CV file
     // Set the download attribute with desired file name
-    downloadAnchor.download = "your-cv-file-name.pdf"; // Replace 'your-cv-file-name.pdf' with the desired file name for your CV
+    downloadAnchor.download = "satiwan_kumar_Full_stack.pdf"; // Replace 'your-cv-file-name.pdf' with the desired file name for your CV
     // Append the anchor to the body
     document.body.appendChild(downloadAnchor);
     // Click the anchor to trigger download
